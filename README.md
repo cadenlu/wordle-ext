@@ -1,6 +1,6 @@
 ## Wordle Extension
 
-Access Wordle solutions without any restrictions.
+Access Wordle analysis without any paywall restrictions.
 
 ## Installation
 
