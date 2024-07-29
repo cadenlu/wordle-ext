@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Wordle Analysis Paywall Bypass",
+    "version": "1.0",
+    "description": "Bypasses the paywall for the NYT Wordle game.",
+    "permissions": ["activeTab"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.nytimes.com/interactive/2022/upshot/wordle-bot.html"
+            ],
+            "js": ["content.js"]
+        }
+    ]
+}
